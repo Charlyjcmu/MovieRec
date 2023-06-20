@@ -1,0 +1,32 @@
+version: "3.9"  # optional since v1.27.0
+services:
+  web_a:
+    build:
+      context: .
+    ports:
+      - "7004:5000"
+    volumes:
+      - ./logvolume01:/var/log
+  web_b:
+    build:
+      context: .
+    ports:
+      - "7005:5000"
+    volumes:
+      - ./logvolume02:/var/log
+  web_c:
+    build:
+      context: .
+    ports:
+      - "7006:5000"
+    volumes:
+      - ./logvolume03:/var/log
+  web_d:
+    build:
+      context: .
+    ports:
+      - "7007:5000"
+    volumes:
+      - ./logvolume04:/var/log
+volumes:
+  logvolume01: {}

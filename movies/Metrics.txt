@@ -1,0 +1,13 @@
+=====================================
+Generating metrics for SVD model
+20230405-185738           test_rmse  fit_time  test_time  model_size
+Algorithm                                            
+SVD         0.724604  0.115242   0.006316     1642467
+=====================================
+=====================================
+Generating metrics for NMF model
+20230414-212342           test_rmse  fit_time  test_time  model_size
+Algorithm                                            
+SVD         0.718665  0.239182   0.008150     1642483
+NMF         0.833339  0.336451   0.006317      405504
+=====================================

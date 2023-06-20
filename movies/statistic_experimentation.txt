@@ -1,0 +1,5 @@
+Time for comparison is 2023-04-11 11:55:45.311263; 
+ the better average model over past 5 versions is SVD, and 
+ the superiority over other algorithm's average 5 versions is not statistically significant. 
+ The better latest model is SVD. However, we choose to use SVD since difference in performance is 
+not statistically significant, and this model is much smaller.
